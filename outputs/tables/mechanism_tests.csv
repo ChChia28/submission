@@ -1,0 +1,5 @@
+block_id,driving_landmarks,n_missing,spearman_rho_PatientID,p_PatientID,spearman_rho_age,p_age,p_sex_fisher,n_complete_vars_tested,n_raw_p<0.05,n_FDR_q<0.05,min_FDR_q
+B1,A;ANS,11,0.767,0.0,0.308,0.1431,0.0995,101,1,0,0.4755
+B2,ALL;ALR;TM;TMR,8,0.817,0.0,0.319,0.1284,0.6668,101,3,0,0.418
+B3,JL;JR,3,0.373,0.0725,0.337,0.1076,1.0,101,3,0,0.3992
+B4,SMP,2,0.218,0.3066,0.283,0.1801,1.0,101,1,0,0.5039

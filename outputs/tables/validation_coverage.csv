@@ -1,0 +1,8 @@
+type,region,n,coverage_95,mean_rel_width
+angle,nasomaxillary,71,0.761,2.695
+angle,palatal_pterygoid,138,0.819,2.675
+angle,zygomatic,124,0.839,2.027
+distance,nasomaxillary,137,0.752,1.431
+distance,palatal_pterygoid,276,0.833,1.469
+distance,temporomandibular,125,0.744,1.451
+distance,zygomatic,115,0.843,0.923

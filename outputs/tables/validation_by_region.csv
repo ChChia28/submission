@@ -1,0 +1,15 @@
+design,region,n_vars,n_cells,median_nrmse,mean_nrmse,mean_mae,mean_abs_rel_bias,mean_r
+A_mcar_cells,cranial_base,27,1289.0,0.659,0.712,2.277,7.129,0.529
+A_mcar_cells,nasomaxillary,22,799.0,0.575,0.599,2.308,12.917,0.691
+A_mcar_cells,orbital,3,160.0,0.24,0.359,0.82,3.18,0.886
+A_mcar_cells,palatal_pterygoid,21,942.0,0.645,0.662,2.574,10.188,0.718
+A_mcar_cells,temporomandibular,25,1072.0,0.392,0.477,1.931,4.683,0.791
+A_mcar_cells,zygomatic,54,2558.0,0.374,0.458,1.955,6.186,0.863
+B_block_holdout,nasomaxillary,14,208.0,0.672,0.731,3.01,9.004,0.514
+B_block_holdout,palatal_pterygoid,18,414.0,0.596,0.669,3.105,2.412,0.622
+B_block_holdout,temporomandibular,8,125.0,0.605,0.582,2.836,8.837,0.804
+B_block_holdout,zygomatic,11,239.0,0.495,0.456,2.676,2.883,0.854
+C_burden_matched,nasomaxillary,14,1840.0,1.119,1.038,4.61,20.503,-0.041
+C_burden_matched,palatal_pterygoid,18,360.0,0.569,0.652,3.005,9.97,0.608
+C_burden_matched,temporomandibular,8,1260.0,1.018,1.049,5.451,28.759,0.108
+C_burden_matched,zygomatic,11,500.0,0.545,0.545,3.444,12.828,0.697
