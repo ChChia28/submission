@@ -77,24 +77,25 @@ reruns reproduce the numbers in `WRITEUP.md` exactly.
 ├── README.md                     you are here
 ├── WRITEUP.md                    the report (findings + recommendation)
 ├── WRITEUP.docx                  same report, Word format
-├── WRITEUP\_1page.md / .docx      one-page version (the submission copy)
+├── WRITEUP_1page.md / .docx      one-page version (the submission copy)
 ├── requirements.txt
-├── run\_all.sh
+├── run_all.sh
 ├── data/
-│   ├── raw/Craniofacial\_Data.xlsx
-│   └── processed/craniofacial\_clean.csv        parsed age, tidy column order
+│   ├── raw/Craniofacial_Data.xlsx
+│   └── processed/craniofacial_clean.csv        parsed age, tidy column order
 ├── src/
 │   ├── utils.py                  paths, age parsing, variable taxonomy
 │   ├── imputers.py               all imputation engines (shared by 02 and 03)
-│   ├── 01\_diagnostics.py         Task 1
-│   ├── 02\_impute.py              Task 2
-│   └── 03\_validate.py            Task 3
+│   ├── 01_diagnostics.py         Task 1
+│   ├── 02_impute.py              Task 2
+│   └── 03_validate.py            Task 3
 └── outputs/
-├── craniofacial\_imputed.csv               ← primary deliverable
-├── craniofacial\_imputed\_long\_m20.csv      all 20 imputations, long format
-├── imputation\_uncertainty.csv             per-cell SD, 95% interval, rule used
-├── figures/                               fig01 … fig13
-└── tables/                                every number quoted in the write-up
+    ├── craniofacial_imputed.csv               ← primary deliverable
+    ├── craniofacial_imputed_long_m20.csv      all 20 imputations, long format
+    ├── imputation_uncertainty.csv             per-cell SD, 95% interval, rule used
+    ├── figures/                               fig01 … fig13
+    └── tables/                                every number quoted in the write-up
+
 
 ```
 
